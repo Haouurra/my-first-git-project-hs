@@ -5,5 +5,5 @@ data <- ggplot2::mpg
 
 data %>%
   ggplot(aes(x = displ, y = hwy)) +
-  geom_smooth() +
+  geom_point() +
   theme_minimal()
